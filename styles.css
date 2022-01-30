@@ -19,7 +19,6 @@
   width: 90%;
   max-width: 400px;
   border-radius: 50%;
-  border: 10px solid black;
   position: relative;
   background-image: url("./images/clock.png");
   background-position: center;
@@ -55,6 +54,5 @@
 }
 
 h1 {
-  padding-bottom: 40px;
-  font-size: 50px;
+  font-size: 2em;
 }
