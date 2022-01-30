@@ -3,3 +3,59 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+
+.clock{
+  height: 400px;
+  width: 90%;
+  max-width: 400px;
+  max-width: 400px;
+  border-radius: 50%;
+  border: 10px solid black;
+  position: relative;
+  background-image: url('./images/clock.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hour,
+.mins,
+.secs{
+  position: absolute;
+  background: black;
+  left: 50%;
+  top: 50%;
+  height: 5px;
+  width: 45%;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+}
+
+.mins{
+  transform: rotate(-10deg);
+}
+
+.hour{
+  width: 30%;
+  height: 2%;
+}
+
+.secs{
+  background-color: red;
+}
+
+h1{
+  padding-bottom: 40px;
+  font-size: 50px;
+}
