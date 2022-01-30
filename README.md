@@ -38,6 +38,10 @@ Please give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+## Link to Demo
+[Link to demo](https://denscholar.github.io/analogue-clock/)
+
+
 ## License
 This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
 
