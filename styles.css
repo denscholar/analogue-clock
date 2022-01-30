@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.clock{
+.clock {
   height: 400px;
   width: 90%;
   max-width: 400px;
@@ -22,7 +22,7 @@
   border-radius: 50%;
   border: 10px solid black;
   position: relative;
-  background-image: url('./images/clock.png');
+  background-image: url("./images/clock.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -30,7 +30,7 @@
 
 .hour,
 .mins,
-.secs{
+.secs {
   position: absolute;
   background: black;
   left: 50%;
@@ -42,20 +42,20 @@
   transform-origin: left;
 }
 
-.mins{
+.mins {
   transform: rotate(-10deg);
 }
 
-.hour{
+.hour {
   width: 30%;
   height: 2%;
 }
 
-.secs{
+.secs {
   background-color: red;
 }
 
-h1{
+h1 {
   padding-bottom: 40px;
   font-size: 50px;
 }
